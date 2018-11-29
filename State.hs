@@ -1,10 +1,5 @@
 module State where
 
-import Control.Monad
-
-
--- Statetp:s -> (a,s)
-
 -- a pure state transformer
 newtype Statetp s a = Statetp { run :: s -> (a,s) }
 
