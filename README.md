@@ -1,3 +1,3 @@
 # State
 
-A ure state transformer in Haskell
+A pure state transformer in Haskell
